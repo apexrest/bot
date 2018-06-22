@@ -3,6 +3,7 @@ Bot platform for Oracle Apex
 
 ## packege telegram
 ### global variables  
+```
 in_chat_id INT;  -- chat id
 in_message_id INT; -- messaage id 
 in_text VARCHAR2(32000); -- message text 
@@ -11,9 +12,11 @@ in_first_name VARCHAR2(100);  -- first name user
 in_last_name VARCHAR2(100);  -- last name user
  
  -- callback --  
+ 
  in_data VARCHAR2(1024); -- callback data
  
  -- bot sessions --  
+ 
  session_st INT; -- current step --   
  session_menu VARCHAR2(100); -- current menu --   
  
@@ -86,3 +89,4 @@ in_last_name VARCHAR2(100);  -- last name user
         p_text         IN CLOB,
         p_parse_mode   IN VARCHAR DEFAULT 'HTML'
     );
+```
