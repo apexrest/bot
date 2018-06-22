@@ -1,8 +1,7 @@
 # Telegram bot platform
 Bot platform for Oracle Apex
 
-## packege telegram
-### global variables  
+## packege telegram  
 ```
 in_chat_id INT;  -- chat id
 in_message_id INT; -- messaage id 
